@@ -1,0 +1,71 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "open sans", sans-serif;
+}
+
+.background {
+  background: url("./assets/images/pic.jpg");
+  position: no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  color: white;
+}
+
+#increment-btn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#save-btn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#save-btn:hover {
+  background-color: #674376;
+  transition: 0.4s;
+}
+
+.author a {
+  text-decoration: none;
+  color: blue;
+}
+@media only screen and (max-width: 600px) {
+  .author {
+    margin-top: 10em;
+    text-decoration: none;
+  }
+  .author a {
+    text-decoration: none;
+    color: blue;
+  }
+}
